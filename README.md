@@ -1,22 +1,7 @@
-# ne_dataset
+# 新能源领域专利语料库数据量统计及样例展示
 
-这是《融合术语信息的新能源专利机器翻译研究》论文中用到的新能源领域专利汉英平行语料库和术语库样例及模型和处理方法。
-
-# 模型结构
-
-![ne-mt-transformer](https://cdn.jsdelivr.net/gh/tian-guo-guo/cdn@master/assets/picgoimg/20210424153924.jpg)
-
-# 三种生成训练语料的方法
-
-Segmentation：一种0 新型0 新能源1 电动汽车1 
-
-Replace：一种0 新型0 new energy2 electric vehicle2
-
-Append：一种0 新型0 新能源1 new energy2 电动汽车1 electric vehicle2
-
-（0 表示源端的词语, 1 表示源端的术语，2 表示目标端的术语）
-
-# 新能源领域专利语料库样例展示
+|1|2|3|
+|4|5|6|
 
 ## SP_Corpus	
 
